@@ -75,7 +75,7 @@ UPDATE sales
 SET month_name = MONTHNAME(date);
 
 # Answering Data related question
-### Product
+## Product
 
 --  How many unique product lines does the data have?
 SELECT 
@@ -173,7 +173,7 @@ FROM sales
 GROUP BY product_line;
 
 
-### Sales
+## Sales
 
 -- Number of sales made in each time of the day per weekday
 SELECT 
